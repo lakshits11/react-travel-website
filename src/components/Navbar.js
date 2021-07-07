@@ -1,36 +1,37 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import Logo from "../images/global.png";
 import { Link } from "react-router-dom";
 import "./Navbar.css";
-import { Button } from "./Button";
+// import { Button } from "./Button";
 
 const Navbar = () => {
   const [click, setClick] = useState(false);
-  const [button, setButton] = useState(true);
+  // const [button, setButton] = useState(true);
 
   const handleClick = () => setClick(!click);
   const closeMobileMenu = () => setClick(false);
 
-  const showButton = () => {
-    if (window.innerWidth <= 960) {
-      setButton(false);
-    } else {
-      setButton(true);
-    }
-  };
+  // const showButton = () => {
+  //   if (window.innerWidth <= 960) {
+  //     setButton(false);
+  //   } else {
+  //     setButton(true);
+  //   }
+  // };
 
-  useEffect(() => {
-    showButton();
-  }, []);
+  // useEffect(() => {
+  //   showButton();
+  // }, []);
 
-  window.addEventListener("resize", showButton);
+  // window.addEventListener("resize", showButton);
 
   return (
     <>
       <nav className="navbar">
         <div className="navbar-container">
           <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
-            TRAVELX <img className="logo-img" src={Logo} alt="logo" />
+            TRAVELX
+            <img className="logo-img" src={Logo} alt="logo" />
           </Link>
 
           <div className="menu-icon" onClick={handleClick}>
