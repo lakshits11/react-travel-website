@@ -1,0 +1,20 @@
+.services,
+.plans ,
+.contact{
+  color: white;
+}
+
+.services{
+  background-image: url("../../images/services.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.plans{
+  background-image: url("../../images/plans.jpg");
+}
+
+.contact{
+  background-image: url("../../images/contact.jpg");
+  
+}
