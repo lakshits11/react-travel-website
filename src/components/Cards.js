@@ -16,28 +16,28 @@ function Cards() {
               path="/plans"
             />
             <CardItem
-              src="images/img-2.jpg"
-              text="Travel through islands of Bali in a Private Cruise"
+              src="images/bali.jpg"
+              text="Travel through islands of Bali and stay in Private Hotel"
               label="Luxury"
               path="/plans"
             />
           </ul>
           <ul className="cards__items">
           <CardItem
-              src="images/img-8.jpg"
+              src="images/dubai.jpg"
               text="Experience the thrill in deserts of Dubai"
               label="Experience"
               path="/plans"
             />
             <CardItem
-              src="images/img-1.jpg"
-              text="Climb The Mount Everest!"
+              src="images/mountain.jpg"
+              text="Climb The Rocky Terrains with a Trained Professional!"
               label="Adventure"
               path="/plans"
             />
             <CardItem
-              src="images/img-4.jpg"
-              text="Play Football on Top of Himalayan Mountains"
+              src="images/valley1.jpg"
+              text="Ride amongst the beautiful valleys of Kerela India"
               label="Enjoy"
               path="/plans"
             />

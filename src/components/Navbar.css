@@ -1,5 +1,6 @@
 .navbar {
-  background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
+  /* background: linear-gradient(90deg, rgb(20 71 86) 25%, rgb(6 105 74) 75%); */
+  background: #000;
   height: 80px;
   display: flex;
   justify-content: center;
@@ -22,7 +23,7 @@
   color: #fff;
   justify-self: start;
   margin-left: -24px;
-  font-family: Arvo, 'sans-serif';
+  font-family: Arvo, "sans-serif";
   cursor: pointer;
   text-decoration: none;
   font-size: 2rem;
@@ -30,7 +31,7 @@
   align-items: center;
 }
 
-.logo-img{
+.logo-img {
   margin-left: 17px;
   height: 40px;
 }
