@@ -2,7 +2,7 @@
 
 This is a food website built using React.
 
-## [✅ View Live 🌍 ]( )
+## [✅ View Live 🌍 ](https://travelx-react.netlify.app/)
 
 ## Run Locally
 
